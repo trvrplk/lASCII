@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @piece.name %>
+</p>
+
+<%= image_tag @piece.shot.url %>
+<br />
+<br />
+<br />
+<br />
+<!--<%= link_to 'Edit', edit_piece_path(@piece) %>-->
+<%= link_to 'Back', pieces_path %>
