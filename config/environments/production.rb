@@ -52,11 +52,7 @@ ASCII::Application.configure do
   # config.threadsafe!
 
 
-ASCII::Application.config.middleware.use ExceptionNotifier,
-  :email_prefix => "[askee] ",
-  :sender_address => %{"notifier" <notifier@example.com>},
-  :exception_recipients => %w{superhappyfuntime@me.com}
-  
+
   
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found)
