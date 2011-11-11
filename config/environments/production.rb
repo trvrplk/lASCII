@@ -53,9 +53,9 @@ ASCII::Application.configure do
 
 
 ASCII::Application.config.middleware.use ExceptionNotifier,
-  :email_prefix => "[Whatever] ",
+  :email_prefix => "[askee] ",
   :sender_address => %{"notifier" <notifier@example.com>},
-  :exception_recipients => %w{exceptions@example.com}
+  :exception_recipients => %w{superhappyfuntime@me.com}
   
   
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
